@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<dirs>
-    <entry loc="/home/gabriel_florentino/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_25.0.2.v20260203-1141" stamp="1776516393612"/>
-    <entry loc="/home/gabriel_florentino/.sdkman/candidates/java/25.0.2-open" stamp="1770106414000"/>
-    <entry loc="/usr/lib/jvm/temurin-25-jdk-amd64" stamp="1776518320317"/>
-    <entry loc="/home/gabriel_florentino/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_25.0.2.v20260203-1141/jre" stamp="1776516393612"/>
-    <entry loc="/usr/lib/jvm/java-17-openjdk-amd64" stamp="1770663683021"/>
-    <entry loc="/usr/lib/jvm/jdk-25.0.1-oracle-x64" stamp="1762282018345"/>
-</dirs>
