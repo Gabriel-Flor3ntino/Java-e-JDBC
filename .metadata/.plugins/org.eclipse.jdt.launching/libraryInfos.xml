@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/home/gabriel_florentino/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_25.0.2.v20260203-1141" version="25.0.2">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="/home/gabriel_florentino/.sdkman/candidates/java/25.0.2-open" version="25.0.2"/>
+    <libraryInfo home="/usr/lib/jvm/temurin-25-jdk-amd64" version="25.0.2"/>
+    <libraryInfo home="/home/gabriel_florentino/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_25.0.2.v20260203-1141/jre" version="25.0.2"/>
+    <libraryInfo home="/usr/lib/jvm/java-17-openjdk-amd64" version="17.0.18"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-25.0.1-oracle-x64" version="25.0.1"/>
+</libraryInfos>
