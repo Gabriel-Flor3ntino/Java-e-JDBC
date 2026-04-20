@@ -1,3 +1,4 @@
+package br.com.jdbc;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -18,7 +19,7 @@ public class ConnectionFactory {
 		this.dataSource = comboPooledDataSource;
 	}
 	
-	public Connection recuperarConexa() throws SQLException {
+	public Connection recuperarConexao() throws SQLException {
 		return this.dataSource.getConnection();
 	}
 

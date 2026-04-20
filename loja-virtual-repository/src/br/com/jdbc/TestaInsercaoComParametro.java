@@ -1,3 +1,4 @@
+package br.com.jdbc;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,7 +9,7 @@ public class TestaInsercaoComParametro {
 
 	public static void main(String[] args) throws SQLException {
 		ConnectionFactory factory = new ConnectionFactory();
-		try (Connection connection = factory.recuperarConexa()) {
+		try (Connection connection = factory.recuperarConexao()) {
 
 			connection.setAutoCommit(false);
 
