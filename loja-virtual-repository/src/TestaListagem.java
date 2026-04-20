@@ -1,21 +1,21 @@
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 public class TestaListagem {
 
 	public static void main(String[] args) throws SQLException {
-		
+
 		ConnectionFactory connectionFactory = new ConnectionFactory();
 		Connection con = connectionFactory.recuperarConexa();
-		
-		Statement stm =  con.createStatement();
-		stm.execute("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
-		
+
+		PreparedStatement stm = con.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+		stm.execute();
+
 		ResultSet rst = stm.getResultSet();
-		
-		while(rst.next()) {
+
+		while (rst.next()) {
 			Integer id = rst.getInt("ID");
 			IO.println(id);
 			String nome = rst.getString("NOME");
@@ -23,7 +23,7 @@ public class TestaListagem {
 			String descricao = rst.getString("DESCRICAO");
 			IO.println(descricao);
 		}
-		
+
 		con.close();
 
 	}
